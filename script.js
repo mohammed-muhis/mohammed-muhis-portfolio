@@ -152,7 +152,9 @@ function showGallery(name, index) {
 
   const next = ((index % images.length) + images.length) % images.length;
   slides[name] = next;
-  gallery.querySelector('img').src = 'assets/' + images[next];
+  const image = gallery.querySelector('img');
+  image.src = 'assets/' + images[next];
+  image.classList.toggle('compact-shot', name === 'barcodelens' && next > 0);
   gallery.querySelectorAll('.dots button').forEach((button, number) => {
     button.classList.toggle('active', number === next);
   });
