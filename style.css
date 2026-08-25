@@ -3,3 +3,5 @@
 .product+.product{margin-top:22px}.product .btn.main{margin-top:22px}.product .gallery{align-self:center}.product-barcode{background:radial-gradient(circle at 90% 10%,#6943d733,transparent 32%),linear-gradient(145deg,#0d1630,#080e1c)}.product-barcode .apphead img{background:#0e1a32}.product-barcode .gallery img{background:#08101f}
 
 .product-barcode .gallery img.compact-shot{display:block;width:min(52%,290px);max-height:520px;min-height:0;margin:0 auto;object-fit:contain;box-shadow:0 16px 40px #0006}@media(max-width:600px){.product-barcode .gallery img.compact-shot{width:min(62%,240px)}}
+
+.product-barcode .gallery-frame{width:100%;aspect-ratio:1024/500;display:grid;place-items:center;overflow:hidden;border-radius:16px}.product-barcode .gallery-frame img{display:block;width:100%;height:100%;min-height:0;margin:0;object-fit:cover}.product-barcode .gallery-frame img.compact-shot{width:auto;height:82%;max-width:44%;max-height:82%;min-height:0;margin:0;object-fit:contain;box-shadow:0 16px 40px #0006}@media(max-width:600px){.product-barcode .gallery-frame img.compact-shot{width:auto;height:82%;max-width:48%;max-height:82%}}
