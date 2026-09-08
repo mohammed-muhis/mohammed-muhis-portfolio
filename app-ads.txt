@@ -12,6 +12,10 @@ bidmachine.io,466,DIRECT
 
 #Add other networks if applicable
 
+
+#ironSource direct account
+ironsrc.com, 666029, DIRECT, 79929e88b2ba73bc
+
 #Resellers
 
 152media.info, 152M312, RESELLER
