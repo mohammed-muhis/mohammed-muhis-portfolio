@@ -45,6 +45,14 @@ const tr = {
     b2: 'WiFi QR',
     b3: 'Fast scanning',
     b4: 'Useful actions',
+    netqStatus: 'PUBLISHING TO GOOGLE PLAY',
+    netqSubtitle: 'Smart Internet Control',
+    netqDesc: 'A privacy-first Android control center for monitoring data usage, managing internet access per app, setting individual data allowances, and applying on-device speed limits.',
+    n1: 'Per-app internet control',
+    n2: 'Data allowances',
+    n3: 'Usage analytics',
+    n4: 'Device speed limits',
+    netqStore: 'Google Play release in progress',
     journeyLabel: 'JOURNEY',
     learning: 'Learning by building.',
     edu: 'Information Technology — 4th Year',
@@ -53,6 +61,8 @@ const tr = {
     pubText: 'Product development, localization, release preparation, publishing, and continuous improvement.',
     barcodePubTitle: 'Published BarcodeLens on Google Play',
     barcodePubText: 'Released a practical QR and barcode utility with WiFi QR support and fast everyday scanning workflows.',
+    netqJourneyTitle: 'Preparing NetQGuard for Google Play',
+    netqJourneyText: 'Finalizing the store release for a privacy-first internet control and data usage app.',
     next: 'Building the next products',
     nextText: 'Expanding Muhis Apps with practical mobile utilities and stronger product experiences.',
     connect: "LET'S CONNECT",
@@ -109,6 +119,14 @@ const tr = {
     b2: 'دعم WiFi QR',
     b3: 'مسح سريع',
     b4: 'إجراءات مفيدة',
+    netqStatus: 'قيد الرفع على المتجر',
+    netqSubtitle: 'تحكم ذكي بالإنترنت',
+    netqDesc: 'مركز تحكم يحافظ على الخصوصية لمراقبة استهلاك البيانات، وإدارة اتصال كل تطبيق بالإنترنت، وتحديد حصص البيانات، وتطبيق حدود السرعة على الجهاز.',
+    n1: 'تحكم بالإنترنت لكل تطبيق',
+    n2: 'حصص بيانات مستقلة',
+    n3: 'تحليلات الاستهلاك',
+    n4: 'تحديد سرعة الجهاز',
+    netqStore: 'قيد الرفع على المتجر',
     journeyLabel: 'المسيرة',
     learning: 'أتعلّم من خلال البناء.',
     edu: 'تقنية معلومات — السنة الرابعة',
@@ -117,6 +135,8 @@ const tr = {
     pubText: 'تطوير المنتج، دعم اللغات، تجهيز الإصدار، النشر، والتحسين المستمر.',
     barcodePubTitle: 'نشر BarcodeLens على Google Play',
     barcodePubText: 'إطلاق أداة عملية لرموز QR والباركود مع دعم WiFi QR وتجربة مسح سريعة للاستخدام اليومي.',
+    netqJourneyTitle: 'تجهيز NetQGuard للنشر على Google Play',
+    netqJourneyText: 'إنهاء خطوات رفع تطبيق يحافظ على الخصوصية للتحكم بالإنترنت ومتابعة استهلاك البيانات.',
     next: 'بناء المنتجات القادمة',
     nextText: 'توسعة Muhis Apps بأدوات جوال عملية وتجارب منتجات أقوى.',
     connect: 'لنتواصل',
@@ -139,10 +159,14 @@ const pics = {
   barcodelens: {
     en: ['barcodelens-cover.png', 'barcodelens-1.jpg', 'barcodelens-2.png', 'barcodelens-3.png'],
     ar: ['barcodelens-cover.png', 'barcodelens-1.jpg', 'barcodelens-2.png', 'barcodelens-3.png']
+  },
+  netqguard: {
+    en: ['netqguard-en-1.jpg', 'netqguard-en-2.jpg', 'netqguard-en-3.jpg', 'netqguard-en-4.jpg'],
+    ar: ['netqguard-ar-1.jpg', 'netqguard-ar-2.jpg', 'netqguard-ar-3.jpg', 'netqguard-ar-4.jpg']
   }
 };
 
-const slides = { imapdf: 0, barcodelens: 0 };
+const slides = { imapdf: 0, barcodelens: 0, netqguard: 0 };
 
 function showGallery(name, index) {
   const gallery = document.querySelector(`[data-gallery="${name}"]`);
@@ -156,7 +180,7 @@ function showGallery(name, index) {
   if (!image) return;
 
   image.src = 'assets/' + images[next];
-  image.classList.toggle('compact-shot', name === 'barcodelens' && next > 0);
+  image.classList.toggle('compact-shot', (name === 'barcodelens' && next > 0) || name === 'netqguard');
   gallery.querySelectorAll('.dots button').forEach((button, number) => {
     button.classList.toggle('active', number === next);
   });
