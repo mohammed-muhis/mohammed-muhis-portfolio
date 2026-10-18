@@ -673,6 +673,40 @@ html[dir="rtl"] .timeline article:before {
     radial-gradient(circle at 88% 12%, #f5c54a24, transparent 34%),
     linear-gradient(145deg, #0d1630, #080e1c);
 }
+.product-science {
+  background:
+    radial-gradient(circle at 88% 12%, #4dd9aa2b, transparent 34%),
+    radial-gradient(circle at 58% 90%, #7b61ff1d, transparent 28%),
+    linear-gradient(145deg, #0d1630, #080e1c);
+}
+
+.product-science .gallery-frame,
+.product-masar .gallery-frame {
+  width: 100%;
+  aspect-ratio: 1024/500;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 16px;
+  background: radial-gradient(circle at 50% 42%, #17395e 0, #08121f 58%, #050a12 100%);
+  border: 1px solid #2c3d63;
+}
+
+.product-science .gallery-frame img,
+.product-masar .gallery-frame img {
+  display: block;
+  width: auto;
+  height: 96%;
+  max-width: 54%;
+  max-height: 96%;
+  min-height: 0;
+  margin: 0;
+  object-fit: contain;
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 20px 55px #000b;
+}
+
 .test-preview {
   min-height: 390px;
   display: grid;
@@ -752,6 +786,12 @@ html[dir="rtl"] .timeline article:before {
 @media (max-width: 600px) {
   .product-prolab .gallery-frame img.compact-shot {
     width: auto;
+    height: 92%;
+    max-width: 56%;
+    max-height: 92%;
+  }
+  .product-science .gallery-frame img,
+  .product-masar .gallery-frame img {
     height: 92%;
     max-width: 56%;
     max-height: 92%;
