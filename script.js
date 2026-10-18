@@ -69,19 +69,19 @@ const tr = {
     n3: "Usage analytics",
     n4: "Device speed limits",
     netqStore: "Currently in Google Play closed testing",
-    scienceSubtitle: "Arabic Learning App",
+    scienceSubtitle: "Arabic Letters & Words for Children",
     scienceDesc:
-      "An Arabic educational app currently being validated through Google Play closed testing before a wider release.",
-    sc1: "Arabic learning",
-    sc2: "Closed testing",
-    sc3: "Usability review",
-    sc4: "Stability testing",
-    masarSubtitle: "Mobile App Project",
+      "A child-friendly Arabic learning app for letters and words, available on Google Play and designed to work safely without internet.",
+    sc1: "Arabic letters & words",
+    sc2: "Available on Google Play",
+    sc3: "Works offline",
+    sc4: "Child-friendly",
+    masarSubtitle: "Rides & Delivery Services",
     masarDesc:
-      "An Arabic mobile app currently in Google Play closed testing while its user experience, performance, and release readiness are evaluated.",
-    m1: "Arabic experience",
+      "An Arabic app for requesting rides and delivery services, tracking active orders, and following trip progress during Google Play closed testing.",
+    m1: "Rides & delivery",
     m2: "Closed testing",
-    m3: "Performance review",
+    m3: "Live order tracking",
     m4: "Release preparation",
     journeyLabel: "JOURNEY",
     learning: "Learning by building.",
@@ -96,9 +96,9 @@ const tr = {
     prolabPubTitle: "Published ProLab on Google Play",
     prolabPubText:
       "Released an Arabic laboratory workflow app for managing results and generating professional PDF reports.",
-    netqJourneyTitle: "Three apps in closed testing",
+    netqJourneyTitle: "Two apps in closed testing",
     netqJourneyText:
-      "NetQGuard, العلم طريقنا, and مسار are being tested for stability and release readiness through Google Play.",
+      "NetQGuard and مَسار are being tested for stability and release readiness through Google Play.",
     next: "Building the next products",
     nextText:
       "Expanding Muhis Apps with practical mobile utilities and stronger product experiences.",
@@ -180,19 +180,19 @@ const tr = {
     n3: "تحليلات الاستهلاك",
     n4: "تحديد سرعة الجهاز",
     netqStore: "متاح حاليًا للمختبرين ضمن الاختبار المغلق",
-    scienceSubtitle: "تطبيق تعليمي عربي",
+    scienceSubtitle: "تعليم الحروف والكلمات للأطفال",
     scienceDesc:
-      "تطبيق تعليمي عربي يجري التحقق من تجربته واستقراره حاليًا عبر الاختبار المغلق في Google Play قبل توسيع نطاق إطلاقه.",
-    sc1: "تعليم باللغة العربية",
-    sc2: "اختبار مغلق",
-    sc3: "مراجعة سهولة الاستخدام",
-    sc4: "اختبار الاستقرار",
-    masarSubtitle: "مشروع تطبيق جوال",
+      "تطبيق عربي مناسب للأطفال لتعلّم الحروف والكلمات، متاح على Google Play ويعمل بأمان دون إنترنت.",
+    sc1: "الحروف والكلمات العربية",
+    sc2: "متاح على Google Play",
+    sc3: "يعمل دون إنترنت",
+    sc4: "مناسب للأطفال",
+    masarSubtitle: "خدمات الرحلات والتوصيل",
     masarDesc:
-      "تطبيق عربي في مرحلة الاختبار المغلق على Google Play، ويجري تقييم تجربة المستخدم والأداء وجاهزية الإصدار.",
-    m1: "تجربة عربية",
+      "تطبيق عربي لطلب الرحلات وخدمات التوصيل ومتابعة الطلبات النشطة وتقدّم الرحلة، وهو حاليًا في الاختبار المغلق على Google Play.",
+    m1: "رحلات وتوصيل",
     m2: "اختبار مغلق",
-    m3: "مراجعة الأداء",
+    m3: "متابعة الطلب مباشرة",
     m4: "تجهيز الإصدار",
     journeyLabel: "المسيرة",
     learning: "أتعلّم من خلال البناء.",
@@ -207,9 +207,9 @@ const tr = {
     prolabPubTitle: "نشر ProLab على Google Play",
     prolabPubText:
       "إطلاق تطبيق مختبرات عربي لإدارة النتائج وإنشاء تقارير PDF احترافية.",
-    netqJourneyTitle: "ثلاثة تطبيقات في الاختبار المغلق",
+    netqJourneyTitle: "تطبيقان في الاختبار المغلق",
     netqJourneyText:
-      "تخضع تطبيقات NetQGuard والعلم طريقنا ومسار لاختبارات الاستقرار والجاهزية للإطلاق عبر Google Play.",
+      "يخضع تطبيقا NetQGuard ومَسار لاختبارات الاستقرار والجاهزية للإطلاق عبر Google Play."
     next: "بناء المنتجات القادمة",
     nextText: "توسعة Muhis Apps بأدوات جوال عملية وتجارب منتجات أقوى.",
     connect: "لنتواصل",
@@ -262,9 +262,37 @@ const pics = {
     en: ["prolab-1.png", "prolab-2.png", "prolab-3.png", "prolab-4.png"],
     ar: ["prolab-1.png", "prolab-2.png", "prolab-3.png", "prolab-4.png"],
   },
+  science: {
+    en: [
+      "https://play-lh.googleusercontent.com/4uzW31vtAzcXrec6c1RNkcZiSsbs3YLI79kYN_qVeo8nz9KgJLYKMCyBKv9C65RbNhLkEfZzA6t_wDTSy8pCNQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/5DAyTC958CjCoYGjeQPXVBpttGgrgQ7tO_wMXJpTu516Vn-MuiUJ81wSCn8Py7Tpo3sBYVRhlNwr7qjeiQT7nw=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/ZDVsQrMZWEq73dl4PKAcZgroVaHRnY5vtlcBVcjt_UQtx92UZo8vzhKJokAH84JRL5TNoCwXa61Q1kpXR-NpfE4=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/bcCIdaDkO9PRv7r8D4uvcdixCM8k9DIjvwm-P8XT6h9MazN6lRGQUia0x8-4RCSZ8QpW6V6Ztc0334i9VsP9fA=w1052-h592-rw"
+    ],
+    ar: [
+      "https://play-lh.googleusercontent.com/4uzW31vtAzcXrec6c1RNkcZiSsbs3YLI79kYN_qVeo8nz9KgJLYKMCyBKv9C65RbNhLkEfZzA6t_wDTSy8pCNQ=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/5DAyTC958CjCoYGjeQPXVBpttGgrgQ7tO_wMXJpTu516Vn-MuiUJ81wSCn8Py7Tpo3sBYVRhlNwr7qjeiQT7nw=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/ZDVsQrMZWEq73dl4PKAcZgroVaHRnY5vtlcBVcjt_UQtx92UZo8vzhKJokAH84JRL5TNoCwXa61Q1kpXR-NpfE4=w1052-h592-rw",
+      "https://play-lh.googleusercontent.com/bcCIdaDkO9PRv7r8D4uvcdixCM8k9DIjvwm-P8XT6h9MazN6lRGQUia0x8-4RCSZ8QpW6V6Ztc0334i9VsP9fA=w1052-h592-rw"
+    ],
+  },
+  masar: {
+    en: [
+      "https://lh3.googleusercontent.com/phuqkJk-vULGEFulcvxmKZpp18ppWd2PeoEvD05mdRlmmi7x3RsWAOkhoV8pyThLfUVaRf92w-OV-JxTSr6PhxA",
+      "https://lh3.googleusercontent.com/lKRzbOEhR612gY0GFqZ2VYNCo20q_R0oUqe-4pLqMd7tkUwpvneT7OobqgM1sSrCzBDMzEXI5znDjEMXY_jM",
+      "https://lh3.googleusercontent.com/p_DHjlmYFNZtWMuZ_a-2cLgTQZkE7Dbzau4oBeaPzaBnmv7Ki4KQLVSeVVbHVFlmHuyyV8wJ-MDBHICigtf1Eg",
+      "https://lh3.googleusercontent.com/3T8-qf_qzU7gEB24dt_35CiAe2lYXEs2iA6mkLk54oKqesaeduchLIRFu0YfhNXVTS6rPsoWNgYaqJNbBWOAHQ"
+    ],
+    ar: [
+      "https://lh3.googleusercontent.com/phuqkJk-vULGEFulcvxmKZpp18ppWd2PeoEvD05mdRlmmi7x3RsWAOkhoV8pyThLfUVaRf92w-OV-JxTSr6PhxA",
+      "https://lh3.googleusercontent.com/lKRzbOEhR612gY0GFqZ2VYNCo20q_R0oUqe-4pLqMd7tkUwpvneT7OobqgM1sSrCzBDMzEXI5znDjEMXY_jM",
+      "https://lh3.googleusercontent.com/p_DHjlmYFNZtWMuZ_a-2cLgTQZkE7Dbzau4oBeaPzaBnmv7Ki4KQLVSeVVbHVFlmHuyyV8wJ-MDBHICigtf1Eg",
+      "https://lh3.googleusercontent.com/3T8-qf_qzU7gEB24dt_35CiAe2lYXEs2iA6mkLk54oKqesaeduchLIRFu0YfhNXVTS6rPsoWNgYaqJNbBWOAHQ"
+    ],
+  },
 };
 
-const slides = { imapdf: 0, barcodelens: 0, netqguard: 0, prolab: 0 };
+const slides = { imapdf: 0, barcodelens: 0, netqguard: 0, prolab: 0, science: 0, masar: 0 };
 
 function showGallery(name, index) {
   const gallery = document.querySelector(`[data-gallery="${name}"]`);
@@ -277,12 +305,14 @@ function showGallery(name, index) {
   const image = gallery.querySelector("img");
   if (!image) return;
 
-  image.src = "assets/" + images[next];
+  image.src = images[next].startsWith("http") ? images[next] : "assets/" + images[next];
   image.classList.toggle(
     "compact-shot",
     (name === "barcodelens" && next > 0) ||
       name === "netqguard" ||
-      name === "prolab",
+      name === "prolab" ||
+      name === "science" ||
+      name === "masar",
   );
   gallery.querySelectorAll(".dots button").forEach((button, number) => {
     button.classList.toggle("active", number === next);
